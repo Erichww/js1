@@ -23,3 +23,10 @@ const texto=tituloLivro
 
 
 console.log(texto)
+
+//to fixed
+const precoProduto =199.99;
+const desconto = 0.15; //15%
+const precoFinal = precoProduto * (1 - desconto);
+console.log(precoFinal)
+console.log(`R$ ${precoFinal.toFixed(2)}`);
